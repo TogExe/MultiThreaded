@@ -24,6 +24,12 @@ Threads * threads = setupThreads();
 ```c
 addTaskInThreads(threads, procedure,data);
 ```
+| variable | type |
+|-|-|
+|`threads`|`Threads *`|
+|`procedure`|`void foo(void * bar);`|
+|`data`|`void *`|
+
 this adds the task to the thread wich has the least amount of scheduled tasks.
 **Handling the threads**
 *quick note : I made it so that when you are handling the threads you wait until all of the threads completed their tasks.*
