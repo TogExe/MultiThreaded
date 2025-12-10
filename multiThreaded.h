@@ -6,7 +6,7 @@
 #include <time.h>
 // Defining essential elements
 
-#define maxthreads 18
+#define maxthreads 4
 
 clock_t start, stop;
 
