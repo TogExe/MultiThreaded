@@ -65,5 +65,7 @@ int main()
 	 return 0;
 }
 ```
+*this is how i was testing my program*
+
 ---
 *if you have any question do not hesitate to ask [me](https://github.com/TogExe).*
